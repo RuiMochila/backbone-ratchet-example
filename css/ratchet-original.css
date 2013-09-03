@@ -113,7 +113,7 @@ body {
 
 /* Universal link styling */
 a {
-  color: #2bf016;
+  color: #0882f0;
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Removes the dark touch outlines on links */
 }
@@ -205,10 +205,10 @@ a {
   top: 0;
   display: -webkit-box;
   display: box;
-  background-color: #2ee91d;
-  background-image: -webkit-linear-gradient(top, #2ee91d 0, #4bb71b 100%);
-  background-image: linear-gradient(to bottom, #2ee91d 0, #4bb71b 100%);
-  border-bottom: 1px solid #088e05;
+  background-color: #1eb0e9;
+  background-image: -webkit-linear-gradient(top, #1eb0e9 0, #109adc 100%);
+  background-image: linear-gradient(to bottom, #1eb0e9 0, #109adc 100%);
+  border-bottom: 1px solid #0e5895;
   box-shadow: inset 0 1px 1px -1px rgba(255, 255, 255, .8);
   -webkit-box-orient: horizontal;
           box-orient: horizontal;
@@ -309,10 +309,10 @@ a {
   line-height: 23px;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-  background-color: #2ee91d;
-  background-image: -webkit-linear-gradient(top, #2ee91d 0, #4bb71b 100%);
-  background-image: linear-gradient(to bottom, #2ee91d 0, #4bb71b 100%);
-  border: 1px solid #088e05;
+  background-color: #1eb0e9;
+  background-image: -webkit-linear-gradient(top, #1eb0e9 0, #0984c6 100%);
+  background-image: linear-gradient(to bottom, #1eb0e9 0, #0984c6 100%);
+  border: 1px solid #0e5895;
   box-shadow: 0 1px rgba(255, 255, 255, .25);
   -webkit-box-flex: 0;
           box-flex: 0;
@@ -329,11 +329,10 @@ a {
   right: 5px;
 }
 
-
 /* Override standard button active states */
 .bar-title .button:active {
   color: #fff;
-  background-color: #2ca302;
+  background-color: #0876b1;
 }
 
 /* Directional buttons in title bars (thanks to @GregorAdams for solution - http://cssnerd.com/2011/11/30/the-best-pure-css3-ios-style-arrow-back-button/)
@@ -368,22 +367,22 @@ a {
   height: 27px;
   border-radius: 30px 100px 2px 40px / 2px 40px 30px 100px;
   content: '';
-  box-shadow: inset 1px 0 #088e05, inset 0 1px #088e05;
+  box-shadow: inset 1px 0 #0e5895, inset 0 1px #0e5895;
   -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(#000), color-stop(.33, #000), color-stop(.5, transparent), to(transparent));
                   mask-image: gradient(linear, left top, right bottom, from(#000), color-stop(.33, #000), color-stop(.5, transparent), to(transparent));
 }
 .bar-title .button-prev:before {
   left: -5px;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#4bb71b), to(#2ee91d));
-  background-image: gradient(linear, left bottom, right top, from(#4bb71b), to(#2ee91d));
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#0984c6), to(#1eb0e9));
+  background-image: gradient(linear, left bottom, right top, from(#0984c6), to(#1eb0e9));
   border-left: 1.5px solid rgba(255, 255, 255, .25);
   -webkit-transform: rotate(-45deg) skew(-10deg, -10deg);
           transform: rotate(-45deg) skew(-10deg, -10deg);
 }
 .bar-title .button-next:before {
   right: -5px;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#2ee91d), to(#4bb71b));
-  background-image: gradient(linear, left bottom, right top, from(#2ee91d), to(#4bb71b));
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#1eb0e9), to(#0984c6));
+  background-image: gradient(linear, left bottom, right top, from(#1eb0e9), to(#0984c6));
   border-top: 1.5px solid rgba(255, 255, 255, .25);
   -webkit-transform: rotate(135deg) skew(-10deg, -10deg);
           transform: rotate(135deg) skew(-10deg, -10deg);
@@ -395,7 +394,7 @@ a {
 .bar-title .button-prev:active:before,
 .bar-title .button-next:active:before {
   color: #fff;
-  background-color: #1bb10b;
+  background-color: #0876b1;
   background-image: none;
 }
 .bar-title .button-prev:active:before,
@@ -444,10 +443,10 @@ a {
 .bar-title .segmented-controller {
   line-height: 18px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-  background-color: #2ee91d;
-  background-image: -webkit-linear-gradient(top, #2ee91d 0, #4bb71b 100%);
-  background-image: linear-gradient(to bottom, #2ee91d 0, #4bb71b 100%);
-  border: 1px solid #088e05;
+  background-color: #1eb0e9;
+  background-image: -webkit-linear-gradient(top, #1eb0e9 0, #0984c6 100%);
+  background-image: linear-gradient(to bottom, #1eb0e9 0, #0984c6 100%);
+  border: 1px solid #0e5895;
   border-radius: 3px;
   box-shadow: 0 1px rgba(255, 255, 255, .25);
   -webkit-box-flex: 1;
@@ -767,13 +766,12 @@ select {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
 
-
 /* Main button */
 .button-main {
-  background-color: #2ee91d;
-  background-image: -webkit-linear-gradient(top, #2ee91d 0, #4bb71b 100%);
-  background-image: linear-gradient(to bottom, #2ee91d 0, #4bb71b 100%);
-  border: 1px solid #088e05;
+  background-color: #1eafe7;
+  background-image: -webkit-linear-gradient(top, #1eafe7 0, #1a97c8 100%);
+  background-image: linear-gradient(to bottom, #1eafe7 0, #1a97c8 100%);
+  border: 1px solid #117aaa;
 }
 
 /* Positive button  */
@@ -799,7 +797,7 @@ select {
   color: #fff;
 }
 .button-main:active {
-  background-color: #1bb10b;
+  background-color: #0876b1;
 }
 .button-positive:active {
   background-color: #298f11;
@@ -898,12 +896,11 @@ select {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
 
-
 /* Main count  */
 .count-main {
-  background-color: #2ee91d;
-  background-image: -webkit-linear-gradient(top, #2ee91d 0, #4bb71b 100%);
-  background-image: linear-gradient(to bottom, #2ee91d 0, #4bb71b 100%);
+  background-color: #1eafe7;
+  background-image: -webkit-linear-gradient(top, #1eafe7 0, #1a97c8 100%);
+  background-image: linear-gradient(to bottom, #1eafe7 0, #1a97c8 100%);
 }
 
 /* Positive count  */
@@ -1079,7 +1076,7 @@ select {
 /* Active state for popover header buttons */
 .popover-header .button:active {
   color: #fff;
-  background-color: #1bb10b;
+  background-color: #0876b1;
 }
 
 /* Popover animation
@@ -1209,13 +1206,12 @@ select {
                   transition: transform 0.1s ease-in-out, border 0.1s ease-in-out;
 }
 
-
 /* Active state for toggle */
 .toggle.active {
-  background-color: #2ff61d;
-  background-image: -webkit-linear-gradient(top, #2ff61d 0, #62d40e 100%);
-  background-image: linear-gradient(to bottom, #2ff61d 0, #62d40e 100%);
-  border: 1px solid #3f9d07;
+  background-color: #19a8e4;
+  background-image: -webkit-linear-gradient(top, #088cd4 0, #19a8e4 100%);
+  background-image: linear-gradient(to bottom, #088cd4 0, #19a8e4 100%);
+  border: 1px solid #096c9d;
   box-shadow: inset 0 0 15px rgba(255, 255, 255, .25);
 }
 
